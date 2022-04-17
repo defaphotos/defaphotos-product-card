@@ -10,9 +10,7 @@ export const ProductTitle = ({className, title, style}: ProductTitleProps) => {
 
     if (title) {
         showTitle = title;
-    }
-
-    if (product.title) {
+    } else if (product.title) {
         showTitle = product.title;
     }
 

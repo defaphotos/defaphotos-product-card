@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage Debe mostrar el componente con la producto con imagen 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`ProductImage Debe mostrar el componente con la producto sin imagen 1`] = `
+<img
+  className="productImg undefined"
+  src="https://hola.jpg"
+/>
+`;
